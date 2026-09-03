@@ -1,0 +1,18 @@
+{
+  "servers": [
+    {
+      "server": {
+        "name": "unity-mcp",
+        "title": "Unity MCP Server",
+        "description": "Bridge between Copilot and the local Unity Editor.",
+        "version": "1.0.0",
+        "remotes": [
+          {
+            "type": "sse",
+            "url": "http://127.0.0.1:8080/mcp"
+          }
+        ]
+      }
+    }
+  ]
+}
