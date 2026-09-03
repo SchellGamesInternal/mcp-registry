@@ -2,7 +2,7 @@
   "servers": [
     {
       "server": {
-        "name": "unity-mcp",
+        "name": "unityMCP",
         "title": "Unity MCP Server",
         "description": "Bridge between Copilot and the local Unity Editor.",
         "version": "1.0.0",
