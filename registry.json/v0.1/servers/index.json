@@ -1,0 +1,12 @@
+{
+  "servers": [
+    {
+      "server": {
+        "name": "com.unity.cli",
+        "title": "Unity CLI Pipeline MCP",
+        "version": "1.0.0",
+        "description": "Connects GitHub Copilot to the Unity Editor via Unity CLI."
+      }
+    }
+  ]
+}

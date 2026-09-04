@@ -1,0 +1,20 @@
+{
+  "server": {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+    "name": "com.unity.cli",
+    "title": "Unity CLI Pipeline MCP",
+    "version": "1.0.0",
+    "packages": [
+      {
+        "transport": {
+          "type": "stdio"
+        },
+        "runtimeHint": "shell",
+        "runtimeArguments": [
+          { "type": "positional", "value": "unity" },
+          { "type": "positional", "value": "mcp" }
+        ]
+      }
+    ]
+  }
+}
