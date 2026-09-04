@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "My MCP Registry",
+  "version": "1.0.0",
+  "description": "Internal MCP server registry.",
+  "servers": [
+    {
+      "name": "com.unity/unity-cli",
+      "title": "Unity CLI MCP",
+      "description": "MCP server built into the Unity CLI.",
+      "version": "0.1.0-beta.8",
+      "server": "servers/unity-cli.json"
+    }
+  ]
+}
