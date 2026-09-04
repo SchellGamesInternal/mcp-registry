@@ -2,17 +2,9 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "servers": [
     {
-      "server": {
-        "name": "schellgames/unity-mcp",
-        "title": "Unity MCP Server",
-        "description": "Bridge between Copilot and the local Unity Editor.",
-        "version": "1.0.0",
-        "remotes": [
-          {
-            "type": "sse",
-            "url": "http://127.0.0.1:8080/mcp"
-          }
-        ]
+       "unity-mcp": {
+        "type": "http",
+        "url": "http://localhost:8080/mcp"
       }
     }
   ]
