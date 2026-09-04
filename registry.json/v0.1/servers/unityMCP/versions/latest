@@ -1,0 +1,24 @@
+{
+  "$schema": "https://modelcontextprotocol.io",
+  "name": "internalorg/unity-mcp",
+  "title": "Unity Engine CLI Pipeline Bridge",
+  "description": "Exposes the terminal-native Unity CLI via MCP to execute blazingly fast commands, handle dynamic reloads, and access live Pipeline skills directly inside Copilot.",
+  "version": "3.0.0",
+  "packages": [
+    {
+      "registryType": "github",
+      "identifier": "unity3d/unity-cli",
+      "transport": { "type": "stdio" }
+    }
+  ],
+  "runtime": {
+    "command": "unity",
+    "args": [
+      "mcp",
+      "run",
+      "--project",
+      "${workspaceRoot}"
+    ]
+  }
+}
+}
