@@ -3,7 +3,7 @@
   "name": "internalorg/unityMCP",
   "title": "Unity Engine CLI Pipeline Bridge",
   "description": "Exposes the terminal-native Unity CLI via MCP to execute blazingly fast commands, handle dynamic reloads, and access live Pipeline skills directly inside Copilot.",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "packages": [
     {
       "registryType": "github",
